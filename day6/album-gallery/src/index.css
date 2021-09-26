@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -13,9 +14,15 @@
   background-color: #542e71;
 }
 
+.title-heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 15px;
+}
 .album-heading {
   padding-top: 20px;
-  margin: 0px 0px 0px 5px;
+  margin-left: 15px;
   color: #f0f0f0;
 }
 .albums {
@@ -28,7 +35,7 @@
 }
 .album {
   margin: 1.3%;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  transition: all 0.5s ease;
   background-color: #fff;
   width: 14%;
   height: auto;

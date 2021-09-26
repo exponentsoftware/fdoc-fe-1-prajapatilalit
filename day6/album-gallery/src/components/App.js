@@ -56,6 +56,7 @@ class App extends Component {
     return (
       <>
         <div className="container">
+          <h1 className="title-heading">Album Gallery</h1>
           <div className="albums">
             <h1 className="album-heading">Albums</h1>
             <Albums albums={this.state.albums} artist={this.state.artist} />
